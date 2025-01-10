@@ -3,12 +3,12 @@ body {
   background: rgb(33, 44, 65);
 }
 .container {
-  max-width: 1400px;
+  max-width: 900px;
   margin: 0 auto;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../images/prague-old-town.jpg");
+    url("../images/prague.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: aliceblue;
