@@ -6,6 +6,14 @@ body {
   max-width: 900px;
   margin: 0 auto;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
     url("../images/prague.jpg");
@@ -44,6 +52,43 @@ header a {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+footer {
+  color: wheat;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/prague-footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin-right: 20px;
+}
+footer ul {
+  margin: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
 }
 @media (max-width: 900px) {
   header {
