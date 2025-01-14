@@ -16,7 +16,9 @@ body {
 }
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -28,6 +30,9 @@ body {
 }
 .card {
   background: whitesmoke;
+}
+.card-header {
+  display: block;
 }
 .card-body {
   padding: 30px;
