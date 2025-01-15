@@ -12,8 +12,6 @@ body {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  gap: 60px;
 }
 .img-responsive {
   max-width: 100%;
@@ -23,23 +21,24 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
-.grid-3-columns {
-  grid-template-columns: 1fr 1fr 2fr;
+.grid.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .grid-3-columns-one-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 .embed {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 16/9;
 }
 .insta-embeds {
   margin: 30px 0;
 }
 .card {
   background: whitesmoke;
+  margin: 30px 0;
 }
-.card-header.grid {
+.card-header .grid {
   grid-gap: 0;
 }
 .card-body {
@@ -64,7 +63,7 @@ body {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 0 auto;
 }
 section .secondary {
   background: #f7e4cb;
@@ -211,7 +210,7 @@ footer a {
     display: none;
   }
   .embed {
-    aspect-ratio: 16/1;
+    aspect-ratio: 16/9;
   }
   blockquote {
     margin: 0 auto;
